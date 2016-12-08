@@ -1,6 +1,56 @@
-body{
-  background: url("../img/hixs_pattern_evolution.png");
+*{box-sizing: border-box;
 }
+
+body{
+  color: aliceblue;
+    
+    
+}
+#box {
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around; 
+        padding-top: 2em;
+}
+ :target {
+  background: teal;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background .5s;
+}
+  /* First Frame */
+body li {
+  
+  display: inline;
+  padding: 1em;
+  list-style: none;
+}
+
+body a:link,
+body a:visited{
+  background: teal;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  transition: 
+    background .5s 1s,
+    padding .25s;
+}
+/* Last Frame */
+body a:hover {
+  background: red;
+  padding-top: .5em;
+}
+
+ #links {
+
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around; 
+        padding-top: 2em;
+    }
 
 img{
     width: 50%;
@@ -23,6 +73,7 @@ img{
   body {
        background: green;
   }
+   
 
 }
 
@@ -31,7 +82,35 @@ img{
   
   /* Diagnostic Styling. */
   body {
-       background: blue;
+       background: url("../img/hixs_pattern_evolution.png");
   }
+    :target {
+  background: teal;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background .5s;
+}
+  /* First Frame */
+body li {
+  
+  display: inline;
+  padding: 1em;
+  list-style: none;
+}
 
+body a:link,
+body a:visited{
+  background: teal;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  transition: 
+    background .5s 1s,
+    padding .25s;
+}
+/* Last Frame */
+body a:hover {
+  background: red;
+  padding-top: .5em;
+}
 }
